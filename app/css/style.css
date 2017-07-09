@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #001d8a;
+  margin: 0;
+  font-family: "Open-sans", sans-serif; }
+
+header, section {
+  width: 100%; }
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 100%; }
+
+.yellow {
+  color: #ecd407; }
+
+header {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 20px 0;
+  z-index: 10; }
+  header #main-logo {
+    display: inline-block;
+    float: left;
+    margin-left: 30px; }
+    header #main-logo h1 {
+      display: inline-block;
+      margin: 0; }
+    header #main-logo .fa {
+      font-size: 2em;
+      float: left;
+      margin-right: 10px;
+      color: #ecd407;
+      line-height: 35px; }
+  header .header-contact {
+    display: inline-block;
+    float: right;
+    width: 200px; }
+    header .header-contact .fa {
+      font-size: 2em;
+      float: left;
+      margin-right: 10px;
+      color: #fff;
+      line-height: 40px; }
+    header .header-contact span {
+      display: block; }
+      header .header-contact span.call {
+        font-size: 0.8 em; }
+      header .header-contact span.phone {
+        font-size: 1.2 em; }
